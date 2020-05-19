@@ -1,8 +1,18 @@
-# Run the command below in order to install node.js in the first time
+# Installation
+```
+1. Docker
+2. MongoDB Community Server
+3. MongoDB Compass
+4. Postman
+5. NPM
+```
+
+# Run command below at the first time
 ```bash
 $ npm install
 ```
 
+# Tutorial
 ## 1. Setting up a MongoDB database with docker
 ```bash
 $ docker pull mongo
