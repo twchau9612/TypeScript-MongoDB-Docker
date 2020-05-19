@@ -1,3 +1,8 @@
+# Run the command below in order to install node.js in the first time
+```bash
+$ npm install
+```
+
 ## 1. Setting up a MongoDB database with docker
 ```bash
 $ docker pull mongo
@@ -30,7 +35,7 @@ $ npx tsc --init
 #### `tsconfig.json`
 ```json
 {
-"compilerOptions": {
+  "compilerOptions": {
     /* Basic Options */
     "target": "es5",
     "module": "commonjs",
@@ -41,7 +46,7 @@ $ npx tsc --init
     /* Source Map Options */
     "sourceRoot": "./src",
     "inlineSourceMap": true
-}
+  }           
 }
 ```
 
